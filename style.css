@@ -1,0 +1,30 @@
+.bg-gris-oscuro {
+    background-color: #343c44;
+}
+
+.bg-azul-oscuro {
+    background-color: #204054;
+    color: white;
+}
+
+.text-a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-verde {
+    background-color: #94cc3c;
+    color: white;
+}
+
+.btn-verde:hover {
+    opacity: 95%;
+    color: gray;
+    background-color: #94cc3c;
+}
+
+.btn-verde:active {
+    opacity: 95%;
+    color: gray;
+    background-color: #94cc3c;
+}
