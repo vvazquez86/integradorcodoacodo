@@ -19,12 +19,31 @@
 
 .btn-verde:hover {
     opacity: 95%;
-    color: gray;
+    color: white;
     background-color: #94cc3c;
 }
 
 .btn-verde:active {
     opacity: 95%;
-    color: gray;
+    color: white;
     background-color: #94cc3c;
 }
+
+/* CARRUSEL */
+
+.carousel img{
+    height: 670px;  
+    object-fit: cover;
+ }
+
+.txt-carrusel{
+    position:absolute;
+    right: 10%;
+    top:50%;
+    text-shadow: #353a40;
+} 
+
+.btn-a:hover{
+    opacity: 75%;
+}
+
