@@ -1,0 +1,68 @@
+.title-descuento{
+    color: black;
+}
+
+.contenedor-box{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 1%;
+    text-align: center;    
+    margin-top: 100px;
+    padding: 35px;
+}
+
+.box-uno{
+    border-color: blue;
+}
+
+.box-dos{
+    border-color: lightskyblue;
+}
+
+.box-tres{
+    border-color: orange;
+}
+
+.titulo-precios{
+    text-align: center;
+}
+
+.input{
+    margin: 10px;
+}
+
+.totalPagar{
+    background-color: aquamarine;    
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.botones{
+    align-items: center;
+    margin: 25px;    
+}
+
+.compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.input-left{
+    margin-right: 3px;
+}
+
+.input-right{
+    margin-left: 3px;
+}
+
+.bg-celeste{
+    background-color: #cce4fc;
+    color: #2c547c;
+}
