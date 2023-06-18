@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.bg-otto{
+    background-color: red;
+}
+
 .box{
     border: 2px solid;
     border-color: black;
@@ -14,18 +18,6 @@
     text-align: center;    
     margin-top: 100px;
     padding: 35px;
-}
-
-.box-uno{
-    border-color: blue;
-}
-
-.box-dos{
-    border-color: lightskyblue;
-}
-
-.box-tres{
-    border-color: orange;
 }
 
 .titulo-precios{
@@ -65,4 +57,8 @@
 .bg-celeste{
     background-color: #cce4fc;
     color: #2c547c;
+}
+
+.margen-sup{
+    margin-top: 100px;    
 }
