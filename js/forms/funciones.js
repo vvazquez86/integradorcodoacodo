@@ -12,7 +12,7 @@ const totalPrice = () =>{
     span.innerText = total
 
 }
-
+console.log('funciona')
 //Funcion del boton borrar
 
 const reset = (e) =>{
