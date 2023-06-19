@@ -19,7 +19,9 @@ const reset = (e) =>{
     e.preventDefault()
     for (let i of inputs)
         i.value=''
-    select.value = 'none'
+    
+        
+        
     resetCategories()
     Swal.fire(
         'Reset completo',
@@ -49,19 +51,14 @@ const submit = (e) =>{
 
     submitAccepted 
     
-    ? alertSuccess()
+    ? Swal.fire(
+        'Exito',
+        'La compra se realizo correctamente!',
+        'success'
+    )
     : Swal.fire(
         'Error',
         'Debe completar todos los campos',
         'error'
-    )
-
-    const alertSuccess = ()=>{
-        reset()
-        Swal.fire(
-            'Exito',
-            'La compra se realizo correctamente!',
-            'success'
-        )
-    }
+    )    
 }
